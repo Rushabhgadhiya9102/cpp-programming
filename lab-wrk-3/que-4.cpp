@@ -1,3 +1,6 @@
+
+// CREATE A PROGRAM TO PRINT ODD NUMBER FORM THE USER INPUT TO 1 USING WHILE LOOP.
+
 #include <iostream>
 using namespace std;
 
