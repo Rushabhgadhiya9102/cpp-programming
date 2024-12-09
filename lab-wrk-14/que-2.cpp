@@ -1,23 +1,24 @@
 #include <iostream>
+#include <string.h>
 using namespace std;
 
 int main(){
 
-    char email[100] = "rushabhgadhiya77@gmail.com",
-         passWord[50] = "rushabh_123",
-         userId[100],
-         pass[50];
+    char email[100] = "rushabh77@gmail.com",  
+         passWord[50] = "rushabh_123";
+         pass[50], 
+         user[100];
 
-    cout << "Enter the userId : ";
-    cin >> userId;
+    cout << "enter the user: ";
+    cin >> user;
 
-    cout << "Enter the password : ";
+    cout << "enter the password: ";
     cin >> pass;
 
-    if ( userId == email && pass == passWord){
-        cout << "Welcome user";
-    }else{
-        cout << "invalid userId and password";
+    if(strcmp(email,user) == strcmp(passWord,pass)){
+            cout << "welcome user";
+    }   else{
+        cout << "invalid";
     }
 
     return 0;
