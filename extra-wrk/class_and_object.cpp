@@ -11,8 +11,12 @@ class Employee {             // DECLARE THE CLASS
         salary = s;
     }
 
-    int getSalary() {
-        return salary;
+
+ public:
+    void getSalary() {
+
+      cout << salary;
+       
     }
 };
 
@@ -21,7 +25,7 @@ int main() {
     Employee myObj;
 
     myObj.getSalary(50000);
-    cout << myObj.getSalary();
+   
 
     return 0;
 }
