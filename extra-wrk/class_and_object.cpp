@@ -1,31 +1,36 @@
 #include <iostream>
 using namespace std;
 
-class Employee {             // DECLARE THE CLASS
+// CLASS CREATED
 
-  private:
-    int salary;             // ACCESS SPECIFIER = PUBLIC
-
-  public:
-    void setSalary(int s) {
-        salary = s;
-    }
-
-
- public:
-    void getSalary() {
-
-      cout << salary;
-       
-    }
+class Student{
+  public: 
+    string name;
+    int age;
+    int roll_no;
+    string grade;
 };
 
-int main() {
+int main(){
 
-    Employee myObj;
+  Student s1; // OBJECT CALLING
 
-    myObj.getSalary(50000);
-   
+  cout << "Enter your name : ";
+  cin >> s1.name;
 
-    return 0;
+  cout << "Enter your age : ";
+  cin >> s1.age;
+
+  cout << "Enter your roll_no : ";
+  cin >> s1.roll_no;
+
+  cout << "Enter your grade : ";
+  cin >> s1.grade;
+
+  cout << "Name : " << s1.name << endl
+       << "Age : " << s1.age << endl
+       << "Roll no : " << s1.roll_no << endl
+       << "Grade : " << s1.grade ;
+  
+  return 0;
 }
