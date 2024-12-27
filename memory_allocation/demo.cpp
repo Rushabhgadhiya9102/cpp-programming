@@ -39,12 +39,23 @@ class myClass{
             }
         }
 
-} ;
+};
 
 int main (){
 
-    myClass obj(5);
-    obj.addElement(0,99);
+    int size, element, index;
+
+    cout << "Enter the size : ";
+    cin >> size;
+
+    cout << "Enter the index : ";
+    cin >> index;
+
+    cout << "Enter the element : ";
+    cin >> element;
+
+    myClass obj(size);
+    obj.addElement(index,element);
 
     return 0;
 }
