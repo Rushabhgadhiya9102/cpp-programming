@@ -47,6 +47,8 @@ class Collection {
 
 };
 
+// MAIN FUNTION
+
 int main() {
 
     int size, element, index;
