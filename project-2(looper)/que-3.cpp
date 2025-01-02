@@ -1,3 +1,5 @@
+// WRITE A PROGRAM TO FIND THE SUM OF FIRST AND LAST DIGIT 
+
 #include <iostream>
 using namespace std;
 
